@@ -56,7 +56,7 @@
 <body>
     <figure class="highcharts-figure">
         <div id="container"></div>
-        <p class="highcharts-description">Biểu đồ hiển thị nhịp tim của con người.</p>
+        <p class="highcharts-description">Biểu đồ hiển thị độ an toàn.</p>
         <p>Với mức màu xanh : An toàn</p>
         <p>Với mức màu cam   : Bất thường</p>
         <p>Với mức màu đỏ   : Nguy hiểm</p>
@@ -87,7 +87,7 @@
                 height: '80%'
             },
             title: {
-                text: 'Heartbeat'
+                text: 'Mực nước cao'
             },
             pane: {
                 startAngle: -90,
@@ -114,19 +114,19 @@
                 lineWidth: 0,
                 plotBands: [{
                     from: 0,
-                    to: 100,
+                    to: 3,
                     color: '#55BF3B', // green
                     thickness: 20,
                     borderRadius: '50%'
                 }, {
-                    from: 100,
-                    to: 130,
+                    from: 4,
+                    to: 6,
                     color: '#DDDF0D', // yellow
                     thickness: 20,
                     borderRadius: '50%'
                 }, {
-                    from: 130,
-                    to: 160,
+                    from: 7,
+                    to: 8,
                     color: '#DF5353', // red
                     thickness: 20
                 }]
